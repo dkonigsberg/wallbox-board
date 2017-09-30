@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HE721A0510
+D HE721A0510, Single Pole Relay SPST-NO 5V Diode
+K Single Pole Relay SPST-NO
+F http://www.littelfuse.com/~/media/electronics/datasheets/reed_relays/littelfuse_reed_relays_he700_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library
