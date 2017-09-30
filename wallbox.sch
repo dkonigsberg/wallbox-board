@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:wallbox-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -115,7 +114,7 @@ U 1 1 59CEE732
 P 2200 2700
 F 0 "C1" H 2225 2800 50  0000 L CNN
 F 1 "0.22uF" H 2225 2600 50  0000 L CNN
-F 2 "" H 2238 2550 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 2238 2550 50  0001 C CNN
 F 3 "" H 2200 2700 50  0001 C CNN
 	1    2200 2700
 	0    1    1    0   
@@ -170,7 +169,7 @@ U 1 1 59CF1995
 P 4100 2850
 F 0 "R3" V 4180 2850 50  0000 C CNN
 F 1 "1k" V 4100 2850 50  0000 C CNN
-F 2 "" V 4030 2850 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4030 2850 50  0001 C CNN
 F 3 "" H 4100 2850 50  0001 C CNN
 	1    4100 2850
 	1    0    0    -1  
