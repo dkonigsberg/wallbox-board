@@ -539,17 +539,6 @@ Connection ~ 4500 4200
 Wire Wire Line
 	3200 4200 4500 4200
 Connection ~ 3200 4200
-$Comp
-L LM7805 U2
-U 1 1 59CF8CCB
-P 4700 1800
-F 0 "U2" H 4850 1604 50  0000 C CNN
-F 1 "LM7805" H 4700 2000 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4700 1800 50  0001 C CNN
-F 3 "" H 4700 1800 50  0001 C CNN
-	1    4700 1800
-	1    0    0    -1  
-$EndComp
 Text Notes 3600 4600 1    60   ~ 0
 5¢
 Text Notes 3800 4600 1    60   ~ 0
@@ -609,4 +598,15 @@ Connection ~ 6650 3400
 Connection ~ 6650 4300
 Connection ~ 6650 4000
 Connection ~ 6650 4900
+$Comp
+L LM7805CT U2
+U 1 1 59D2B7B1
+P 4700 1800
+F 0 "U2" H 4500 2000 50  0000 C CNN
+F 1 "LM7805CT" H 4700 2000 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4700 1900 50  0001 C CIN
+F 3 "" H 4700 1800 50  0001 C CNN
+	1    4700 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
