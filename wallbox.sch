@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:relays
 LIBS:diode
 LIBS:wallbox-components
+LIBS:dc-dc
 LIBS:wallbox-cache
 EELAYER 25 0
 EELAYER END
@@ -76,7 +77,7 @@ Text Notes 7350 1950 0    60   ~ 0
 Text Notes 7350 2150 0    60   ~ 0
 25¢
 $Comp
-L D_Bridge_+A-A D1
+L 2W005G D1
 U 1 1 59CEE417
 P 2200 2200
 F 0 "D1" H 2250 2475 50  0000 L CNN
@@ -148,7 +149,7 @@ GND
 Text Notes 3400 4900 1    60   ~ 0
 Signal
 $Comp
-L D_Bridge_+A-A D2
+L 2W005G D2
 U 1 1 59CF2604
 P 3500 2200
 F 0 "D2" H 3550 2475 50  0000 L CNN
@@ -270,9 +271,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 1900 6800 1900
 Wire Wire Line
-	6800 3400 6800 1900
+	6800 1900 6800 3400
 Wire Wire Line
-	6550 3400 6800 3400
+	6800 3400 6550 3400
 Wire Wire Line
 	6950 4300 6950 2100
 Wire Wire Line
@@ -830,7 +831,7 @@ Wire Wire Line
 	5350 4550 5900 4550
 Connection ~ 5900 4550
 $Comp
-L Screw_Terminal_1x04 J1
+L Screw_Terminal_Transformer J1
 U 1 1 59D94102
 P 1500 1400
 F 0 "J1" H 1500 1850 50  0000 C TNN

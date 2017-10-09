@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2W005G
+D Glass Passivated Single-Phase Bridge Rectifier
+K rectifier acdc
+$ENDCMP
+#
 $CMP HE721A0510
 D HE721A0510, Single Pole Relay SPST-NO 5V Diode
 K Single Pole Relay SPST-NO
@@ -10,6 +15,11 @@ $CMP NCS1S2403SC
 D Isolated 1W Dual output DC/DC Converter 5V Input +/-12V Output, SIP Package
 K Murata DC/DC
 F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_Transformer
+D 4-pin screw terminal connector
+K screw terminal block
 $ENDCMP
 #
 #End Doc Library
