@@ -12,9 +12,9 @@ F http://www.littelfuse.com/~/media/electronics/datasheets/reed_relays/littelfus
 $ENDCMP
 #
 $CMP NCS1S2403SC
-D Isolated 1W Dual output DC/DC Converter 5V Input +/-12V Output, SIP Package
+D Isolated 1W Dual output DC/DC Converter 24V Input 3.3V Output, SIP Package
 K Murata DC/DC
-F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+F http://power.murata.com/data/power/ncl/kdc_ncs1.pdf
 $ENDCMP
 #
 $CMP Screw_Terminal_Transformer
