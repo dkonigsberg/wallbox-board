@@ -1,4 +1,4 @@
-update=Mon 09 Oct 2017 02:58:25 PM PDT
+update=Mon 09 Oct 2017 04:30:28 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -73,3 +63,14 @@ LibName31=wallbox-components
 LibName32=/home/octo/devel/kicad/kicad-library/library/dc-dc
 LibName33=transf
 LibName34=/home/octo/devel/kicad/kicad-library/library/Logic_74xx
+LibName35=/home/octo/devel/kicad/kicad-ESP8266/ESP8266
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
