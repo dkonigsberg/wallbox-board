@@ -1,4 +1,4 @@
-update=Sat 30 Sep 2017 03:57:08 PM PDT
+update=Sun 08 Oct 2017 10:49:05 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -71,3 +61,14 @@ LibName29=valves
 LibName30=relays
 LibName31=diode
 LibName32=wallbox-components
+LibName33=/home/octo/devel/kicad/kicad-library/library/dc-dc
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name wallbox-footprints)(type KiCad)(uri "$(KIPRJMOD)/wallbox-footprints.pretty")(options "")(descr ""))
+  (lib (name Converters_DCDC_ACDC)(type KiCad)(uri /home/octo/devel/kicad/Converters_DCDC_ACDC.pretty)(options "")(descr ""))
 )

@@ -6,4 +6,10 @@ K Single Pole Relay SPST-NO
 F http://www.littelfuse.com/~/media/electronics/datasheets/reed_relays/littelfuse_reed_relays_he700_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP NCS1S2403SC
+D Isolated 1W Dual output DC/DC Converter 5V Input +/-12V Output, SIP Package
+K Murata DC/DC
+F http://power.murata.com/data/power/ncl/kdc_nma.pdf
+$ENDCMP
+#
 #End Doc Library
