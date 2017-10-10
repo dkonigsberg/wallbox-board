@@ -56,7 +56,8 @@ P 9450 1600
 F 0 "J2" H 9450 2250 50  0000 C TNN
 F 1 "To Wallbox" V 9300 1600 50  0000 C TNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-6pol" H 9450 975 50  0001 C CNN
-F 3 "" H 9425 2000 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729050.pdf" H 9425 2000 50  0001 C CNN
+F 4 "CONN TERM BLOCK 6POS 5MM PCB" H 9450 1600 60  0001 C CNN "Description"
 	1    9450 1600
 	-1   0    0    -1  
 $EndComp
@@ -487,7 +488,8 @@ P 1500 1600
 F 0 "J1" H 1500 2050 50  0000 C TNN
 F 1 "From Transformer" V 1350 1600 50  0000 C TNN
 F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-4pol" H 1500 1175 50  0001 C CNN
-F 3 "" H 1475 1800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729034.pdf" H 1475 1800 50  0001 C CNN
+F 4 "CONN TERM BLOCK 4POS 5MM PCB" H 1500 1600 60  0001 C CNN "Description"
 	1    1500 1600
 	1    0    0    -1  
 $EndComp
