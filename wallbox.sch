@@ -55,7 +55,7 @@ U 1 1 59CED34F
 P 9450 1600
 F 0 "J2" H 9450 2250 50  0000 C TNN
 F 1 "To Wallbox" V 9300 1600 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_6pol" H 9450 975 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-6pol" H 9450 975 50  0001 C CNN
 F 3 "" H 9425 2000 50  0001 C CNN
 	1    9450 1600
 	-1   0    0    -1  
@@ -85,7 +85,8 @@ P 2900 2200
 F 0 "D1" H 2950 2475 50  0000 L CNN
 F 1 "2W005G" H 2950 2400 50  0000 L CNN
 F 2 "wallbox-footprints:D-BRIDGE-WOG" H 2900 2200 50  0001 C CNN
-F 3 "" H 2900 2200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88528/2w005g.pdf" H 2900 2200 50  0001 C CNN
+F 4 "DIODE BRIDGE 2A 50V 1PH WOG" H 2900 2200 60  0001 C CNN "Description"
 	1    2900 2200
 	1    0    0    -1  
 $EndComp
@@ -96,7 +97,8 @@ P 2900 3150
 F 0 "U1" H 2700 3350 50  0000 C CNN
 F 1 "KA78R33" H 2850 3350 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-220-4_Vertical" H 2900 3250 50  0001 C CIN
-F 3 "" H 2900 3150 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/KA/KA78R05C.pdf" H 2900 3150 50  0001 C CNN
+F 4 "IC REG LINEAR 3.3V 1A TO220F-4L" H 2900 3150 60  0001 C CNN "Description"
 	1    2900 3150
 	1    0    0    -1  
 $EndComp
@@ -106,8 +108,9 @@ U 1 1 59CEE956
 P 2800 3600
 F 0 "R2" V 2880 3600 50  0000 C CNN
 F 1 "1k" V 2800 3600 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2730 3600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2730 3600 50  0001 C CNN
 F 3 "" H 2800 3600 50  0001 C CNN
+F 4 "RES 1K OHM 1/4W 5% AXIAL" V 2800 3600 60  0001 C CNN "Description"
 	1    2800 3600
 	0    -1   -1   0   
 $EndComp
@@ -117,8 +120,9 @@ U 1 1 59CEF49E
 P 2950 3950
 F 0 "U3" H 2750 4150 50  0000 L CNN
 F 1 "TPC817MC" H 2950 4150 50  0000 L CNN
-F 2 "Housings_DIP:DIP-4_W7.62mm" H 2750 3750 50  0001 L CIN
-F 3 "" H 2950 3950 50  0001 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm_LongPads" H 2750 3750 50  0001 L CIN
+F 3 "http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf" H 2950 3950 50  0001 L CNN
+F 4 "OPTOISO 5KV TRANS DIP-4M" H 2950 3950 60  0001 C CNN "Description"
 	1    2950 3950
 	1    0    0    -1  
 $EndComp
@@ -128,7 +132,7 @@ U 1 1 59CF104C
 P 3800 6450
 F 0 "J3" H 3800 7100 50  0000 C TNN
 F 1 "To Microcontroller" V 3650 6450 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_6pol" H 3800 5825 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-6pol" H 3800 5825 50  0001 C CNN
 F 3 "" H 3775 6850 50  0001 C CNN
 	1    3800 6450
 	0    -1   -1   0   
@@ -139,8 +143,9 @@ U 1 1 59CF1995
 P 3450 3650
 F 0 "R3" V 3530 3650 50  0000 C CNN
 F 1 "47k" V 3450 3650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3380 3650 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 3650 50  0001 C CNN
 F 3 "" H 3450 3650 50  0001 C CNN
+F 4 "RES 47K OHM 1/4W 5% AXIAL" V 3450 3650 60  0001 C CNN "Description"
 	1    3450 3650
 	1    0    0    -1  
 $EndComp
@@ -157,7 +162,8 @@ P 5100 2200
 F 0 "D2" H 5150 2475 50  0000 L CNN
 F 1 "2W005G" H 5150 2400 50  0000 L CNN
 F 2 "wallbox-footprints:D-BRIDGE-WOG" H 5100 2200 50  0001 C CNN
-F 3 "" H 5100 2200 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88528/2w005g.pdf" H 5100 2200 50  0001 C CNN
+F 4 "DIODE BRIDGE 2A 50V 1PH WOG" H 5100 2200 60  0001 C CNN "Description"
 	1    5100 2200
 	1    0    0    -1  
 $EndComp
@@ -168,7 +174,8 @@ P 7500 3550
 F 0 "Q1" H 7700 3625 50  0000 L CNN
 F 1 "BC547" H 7700 3550 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7700 3475 50  0001 L CIN
-F 3 "" H 7500 3550 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/BC/BC546.pdf" H 7500 3550 50  0001 L CNN
+F 4 "TRANS NPN 45V 0.1A TO-92" H 7500 3550 60  0001 C CNN "Description"
 	1    7500 3550
 	1    0    0    -1  
 $EndComp
@@ -179,7 +186,8 @@ P 7500 4450
 F 0 "Q2" H 7700 4525 50  0000 L CNN
 F 1 "BC547" H 7700 4450 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7700 4375 50  0001 L CIN
-F 3 "" H 7500 4450 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/BC/BC546.pdf" H 7500 4450 50  0001 L CNN
+F 4 "TRANS NPN 45V 0.1A TO-92" H 7500 4450 60  0001 C CNN "Description"
 	1    7500 4450
 	1    0    0    -1  
 $EndComp
@@ -190,7 +198,8 @@ P 7500 5350
 F 0 "Q3" H 7700 5425 50  0000 L CNN
 F 1 "BC547" H 7700 5350 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7700 5275 50  0001 L CIN
-F 3 "" H 7500 5350 50  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/BC/BC546.pdf" H 7500 5350 50  0001 L CNN
+F 4 "TRANS NPN 45V 0.1A TO-92" H 7500 5350 60  0001 C CNN "Description"
 	1    7500 5350
 	1    0    0    -1  
 $EndComp
@@ -200,8 +209,9 @@ U 1 1 59CF5CB2
 P 7000 3450
 F 0 "U4" H 6800 3650 50  0000 L CNN
 F 1 "TPC817MC" H 7000 3650 50  0000 L CNN
-F 2 "Housings_DIP:DIP-4_W7.62mm" H 6800 3250 50  0001 L CIN
-F 3 "" H 7000 3450 50  0001 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm_LongPads" H 6800 3250 50  0001 L CIN
+F 3 "http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf" H 7000 3450 50  0001 L CNN
+F 4 "OPTOISO 5KV TRANS DIP-4M" H 7000 3450 60  0001 C CNN "Description"
 	1    7000 3450
 	1    0    0    -1  
 $EndComp
@@ -211,8 +221,9 @@ U 1 1 59CF5DAA
 P 7000 4350
 F 0 "U5" H 6800 4550 50  0000 L CNN
 F 1 "TPC817MC" H 7000 4550 50  0000 L CNN
-F 2 "Housings_DIP:DIP-4_W7.62mm" H 6800 4150 50  0001 L CIN
-F 3 "" H 7000 4350 50  0001 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm_LongPads" H 6800 4150 50  0001 L CIN
+F 3 "http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf" H 7000 4350 50  0001 L CNN
+F 4 "OPTOISO 5KV TRANS DIP-4M" H 7000 4350 60  0001 C CNN "Description"
 	1    7000 4350
 	1    0    0    -1  
 $EndComp
@@ -222,8 +233,9 @@ U 1 1 59CF61A4
 P 7000 5250
 F 0 "U6" H 6800 5450 50  0000 L CNN
 F 1 "TPC817MC" H 7000 5450 50  0000 L CNN
-F 2 "Housings_DIP:DIP-4_W7.62mm" H 6800 5050 50  0001 L CIN
-F 3 "" H 7000 5250 50  0001 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm_LongPads" H 6800 5050 50  0001 L CIN
+F 3 "http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf" H 7000 5250 50  0001 L CNN
+F 4 "OPTOISO 5KV TRANS DIP-4M" H 7000 5250 60  0001 C CNN "Description"
 	1    7000 5250
 	1    0    0    -1  
 $EndComp
@@ -233,8 +245,9 @@ U 1 1 59CF6228
 P 7500 3200
 F 0 "R4" V 7580 3200 50  0000 C CNN
 F 1 "1k" V 7500 3200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 3200 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7430 3200 50  0001 C CNN
 F 3 "" H 7500 3200 50  0001 C CNN
+F 4 "RES 1K OHM 1/4W 5% AXIAL" V 7500 3200 60  0001 C CNN "Description"
 	1    7500 3200
 	1    0    0    -1  
 $EndComp
@@ -244,8 +257,9 @@ U 1 1 59CF62BD
 P 7500 4100
 F 0 "R5" V 7580 4100 50  0000 C CNN
 F 1 "1k" V 7500 4100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 4100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7430 4100 50  0001 C CNN
 F 3 "" H 7500 4100 50  0001 C CNN
+F 4 "RES 1K OHM 1/4W 5% AXIAL" V 7500 4100 60  0001 C CNN "Description"
 	1    7500 4100
 	1    0    0    -1  
 $EndComp
@@ -255,8 +269,9 @@ U 1 1 59CF6321
 P 7500 5000
 F 0 "R6" V 7580 5000 50  0000 C CNN
 F 1 "1k" V 7500 5000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7430 5000 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7430 5000 50  0001 C CNN
 F 3 "" H 7500 5000 50  0001 C CNN
+F 4 "RES 1K OHM 1/4W 5% AXIAL" V 7500 5000 60  0001 C CNN "Description"
 	1    7500 5000
 	1    0    0    -1  
 $EndComp
@@ -266,8 +281,9 @@ U 1 1 59CF856E
 P 6450 3350
 F 0 "R7" V 6530 3350 50  0000 C CNN
 F 1 "1k" V 6450 3350 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6380 3350 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6380 3350 50  0001 C CNN
 F 3 "" H 6450 3350 50  0001 C CNN
+F 4 "RES 1K OHM 1/4W 5% AXIAL" V 6450 3350 60  0001 C CNN "Description"
 	1    6450 3350
 	0    1    1    0   
 $EndComp
@@ -277,8 +293,9 @@ U 1 1 59CF8628
 P 6450 4250
 F 0 "R8" V 6530 4250 50  0000 C CNN
 F 1 "1k" V 6450 4250 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6380 4250 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6380 4250 50  0001 C CNN
 F 3 "" H 6450 4250 50  0001 C CNN
+F 4 "RES 1K OHM 1/4W 5% AXIAL" V 6450 4250 60  0001 C CNN "Description"
 	1    6450 4250
 	0    1    1    0   
 $EndComp
@@ -288,8 +305,9 @@ U 1 1 59CF8691
 P 6450 5150
 F 0 "R9" V 6530 5150 50  0000 C CNN
 F 1 "1k" V 6450 5150 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6380 5150 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6380 5150 50  0001 C CNN
 F 3 "" H 6450 5150 50  0001 C CNN
+F 4 "RES 1K OHM 1/4W 5% AXIAL" V 6450 5150 60  0001 C CNN "Description"
 	1    6450 5150
 	0    1    1    0   
 $EndComp
@@ -308,7 +326,8 @@ P 8500 3550
 F 0 "RL1" H 8950 3700 50  0000 L CNN
 F 1 "HE721A0510" H 8950 3600 50  0000 L CNN
 F 2 "wallbox-footprints:HE700_DIP-14" H 8500 3550 50  0001 C CNN
-F 3 "" H 8500 3550 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/reed_relays/littelfuse_reed_relays_he700_datasheet.pdf.pdf" H 8500 3550 50  0001 C CNN
+F 4 "RELAY REED SPST 500MA 5V" H 8500 3550 60  0001 C CNN "Description"
 	1    8500 3550
 	1    0    0    -1  
 $EndComp
@@ -319,7 +338,8 @@ P 8500 4450
 F 0 "RL2" H 8950 4600 50  0000 L CNN
 F 1 "HE721A0510" H 8950 4500 50  0000 L CNN
 F 2 "wallbox-footprints:HE700_DIP-14" H 8500 4450 50  0001 C CNN
-F 3 "" H 8500 4450 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/reed_relays/littelfuse_reed_relays_he700_datasheet.pdf.pdf" H 8500 4450 50  0001 C CNN
+F 4 "RELAY REED SPST 500MA 5V" H 8500 4450 60  0001 C CNN "Description"
 	1    8500 4450
 	1    0    0    -1  
 $EndComp
@@ -330,7 +350,8 @@ P 8500 5350
 F 0 "RL3" H 8950 5500 50  0000 L CNN
 F 1 "HE721A0510" H 8950 5400 50  0000 L CNN
 F 2 "wallbox-footprints:HE700_DIP-14" H 8500 5350 50  0001 C CNN
-F 3 "" H 8500 5350 50  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/reed_relays/littelfuse_reed_relays_he700_datasheet.pdf.pdf" H 8500 5350 50  0001 C CNN
+F 4 "RELAY REED SPST 500MA 5V" H 8500 5350 60  0001 C CNN "Description"
 	1    8500 5350
 	1    0    0    -1  
 $EndComp
@@ -341,7 +362,8 @@ P 6350 2150
 F 0 "U2" H 6150 2350 50  0000 C CNN
 F 1 "LM7805CT" H 6350 2350 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 6350 2250 50  0001 C CIN
-F 3 "" H 6350 2150 50  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/LM/LM7805.pdf" H 6350 2150 50  0001 C CNN
+F 4 "IC REG LINEAR 5V 1A TO220AB" H 6350 2150 60  0001 C CNN "Description"
 	1    6350 2150
 	1    0    0    -1  
 $EndComp
@@ -351,8 +373,9 @@ U 1 1 59D5751B
 P 3750 3850
 F 0 "R10" V 3830 3850 50  0000 C CNN
 F 1 "10k" V 3750 3850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3680 3850 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 3850 50  0001 C CNN
 F 3 "" H 3750 3850 50  0001 C CNN
+F 4 "RES 10K OHM 1/4W 5% AXIAL" V 3750 3850 60  0001 C CNN "Description"
 	1    3750 3850
 	0    1    1    0   
 $EndComp
@@ -363,7 +386,8 @@ P 3950 4050
 F 0 "C3" H 3975 4150 50  0000 L CNN
 F 1 "0.1uF" H 3975 3950 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3988 3900 50  0001 C CNN
-F 3 "" H 3950 4050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 3950 4050 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R RADIAL" H 3950 4050 60  0001 C CNN "Description"
 	1    3950 4050
 	1    0    0    -1  
 $EndComp
@@ -379,7 +403,8 @@ P 1050 5300
 F 0 "C4" H 1075 5400 50  0000 L CNN
 F 1 "0.1uF" H 1075 5200 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1088 5150 50  0001 C CNN
-F 3 "" H 1050 5300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 1050 5300 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R RADIAL" H 1050 5300 60  0001 C CNN "Description"
 	1    1050 5300
 	1    0    0    -1  
 $EndComp
@@ -389,8 +414,9 @@ U 1 1 59D608BE
 P 2900 2700
 F 0 "C1" H 2925 2800 50  0000 L CNN
 F 1 "2.2uF" V 2850 2400 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm" H 2938 2550 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 2938 2550 50  0001 C CNN
 F 3 "" H 2900 2700 50  0001 C CNN
+F 4 "CAP ALUM 2.2UF 20% 50V RADIAL" H 2900 2700 60  0001 C CNN "Description"
 	1    2900 2700
 	0    1    1    0   
 $EndComp
@@ -399,9 +425,10 @@ L CP C5
 U 1 1 59D7C398
 P 5600 2300
 F 0 "C5" H 5625 2400 50  0000 L CNN
-F 1 "2000uF" H 5625 2200 50  0000 L CNN
-F 2 "" H 5638 2150 50  0001 C CNN
-F 3 "" H 5600 2300 50  0001 C CNN
+F 1 "1000uF" H 5625 2200 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 5638 2150 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 5600 2300 50  0001 C CNN
+F 4 "CAP ALUM 1000UF 20% 50V RADIAL" H 5600 2300 60  0001 C CNN "Description"
 	1    5600 2300
 	1    0    0    -1  
 $EndComp
@@ -411,8 +438,9 @@ U 1 1 59D7C445
 P 5950 2300
 F 0 "C6" H 5975 2400 50  0000 L CNN
 F 1 "0.33uF" H 5975 2200 50  0000 L CNN
-F 2 "" H 5988 2150 50  0001 C CNN
-F 3 "" H 5950 2300 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 5988 2150 50  0001 C CNN
+F 3 "http://www.chemi-con.co.jp/e/catalog/pdf/ce-e/ce-sepa-e/ce-kvd-e-170401.pdf" H 5950 2300 50  0001 C CNN
+F 4 "CAP CER 0.33UF 50V X8L RADIAL" H 5950 2300 60  0001 C CNN "Description"
 	1    5950 2300
 	1    0    0    -1  
 $EndComp
@@ -422,8 +450,9 @@ U 1 1 59D7D1CA
 P 7000 2300
 F 0 "C7" H 7025 2400 50  0000 L CNN
 F 1 "0.1uF" H 7025 2200 50  0000 L CNN
-F 2 "" H 7038 2150 50  0001 C CNN
-F 3 "" H 7000 2300 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 7038 2150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/45171/kseries.pdf" H 7000 2300 50  0001 C CNN
+F 4 "CAP CER 0.1UF 50V X7R RADIAL" H 7000 2300 60  0001 C CNN "Description"
 	1    7000 2300
 	1    0    0    -1  
 $EndComp
@@ -433,8 +462,9 @@ U 1 1 59CF2863
 P 6750 2300
 F 0 "C2" H 6775 2400 50  0000 L CNN
 F 1 "10uF" H 6775 2200 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 6788 2150 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P1.50mm" H 6788 2150 50  0001 C CNN
 F 3 "" H 6750 2300 50  0001 C CNN
+F 4 "CAP ALUM 10UF 20% 25V RADIAL" H 6750 2300 60  0001 C CNN "Description"
 	1    6750 2300
 	1    0    0    -1  
 $EndComp
@@ -444,8 +474,9 @@ U 1 1 59D7D969
 P 7400 2300
 F 0 "D3" H 7400 2400 50  0000 C CNN
 F 1 "1N4007" H 7400 2200 50  0000 C CNN
-F 2 "" H 7400 2300 50  0001 C CNN
-F 3 "" H 7400 2300 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 7400 2300 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/1N4001-1N4007(DO-41).pdf" H 7400 2300 50  0001 C CNN
+F 4 "DIODE GEN PURP 1KV 1A DO41" H 7400 2300 60  0001 C CNN "Description"
 	1    7400 2300
 	0    1    1    0   
 $EndComp
@@ -455,7 +486,7 @@ U 1 1 59D94102
 P 1500 1600
 F 0 "J1" H 1500 2050 50  0000 C TNN
 F 1 "From Transformer" V 1350 1600 50  0000 C TNN
-F 2 "" H 1500 1175 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-4pol" H 1500 1175 50  0001 C CNN
 F 3 "" H 1475 1800 50  0001 C CNN
 	1    1500 1600
 	1    0    0    -1  
@@ -501,8 +532,9 @@ U 1 1 59DEFD45
 P 4300 3850
 F 0 "U7" H 4450 3950 50  0000 C CNN
 F 1 "74HC14" H 4500 3750 50  0000 C CNN
-F 2 "" H 4300 3850 50  0001 C CNN
-F 3 "" H 4300 3850 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 4300 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc14.pdf" H 4300 3850 50  0001 C CNN
+F 4 "IC HEX SCHMITT-TRIG INV 14-DIP" H 4300 3850 60  0001 C CNN "Description"
 	1    4300 3850
 	1    0    0    -1  
 $EndComp
@@ -512,7 +544,7 @@ U 2 1 59DF1BDD
 P 1050 2750
 F 0 "U7" H 1200 2850 50  0000 C CNN
 F 1 "74HC14" H 1250 2650 50  0000 C CNN
-F 2 "" H 1050 2750 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 1050 2750 50  0001 C CNN
 F 3 "" H 1050 2750 50  0001 C CNN
 	2    1050 2750
 	1    0    0    -1  
@@ -523,7 +555,7 @@ U 3 1 59DF1C72
 P 1050 3100
 F 0 "U7" H 1200 3200 50  0000 C CNN
 F 1 "74HC14" H 1250 3000 50  0000 C CNN
-F 2 "" H 1050 3100 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 1050 3100 50  0001 C CNN
 F 3 "" H 1050 3100 50  0001 C CNN
 	3    1050 3100
 	1    0    0    -1  
@@ -534,7 +566,7 @@ U 4 1 59DF1D19
 P 1050 3450
 F 0 "U7" H 1200 3550 50  0000 C CNN
 F 1 "74HC14" H 1250 3350 50  0000 C CNN
-F 2 "" H 1050 3450 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 1050 3450 50  0001 C CNN
 F 3 "" H 1050 3450 50  0001 C CNN
 	4    1050 3450
 	1    0    0    -1  
@@ -545,7 +577,7 @@ U 5 1 59DF1DF0
 P 1050 3800
 F 0 "U7" H 1200 3900 50  0000 C CNN
 F 1 "74HC14" H 1250 3700 50  0000 C CNN
-F 2 "" H 1050 3800 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 1050 3800 50  0001 C CNN
 F 3 "" H 1050 3800 50  0001 C CNN
 	5    1050 3800
 	1    0    0    -1  
@@ -556,7 +588,7 @@ U 6 1 59DF1E87
 P 1050 4150
 F 0 "U7" H 1200 4250 50  0000 C CNN
 F 1 "74HC14" H 1250 4050 50  0000 C CNN
-F 2 "" H 1050 4150 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 1050 4150 50  0001 C CNN
 F 3 "" H 1050 4150 50  0001 C CNN
 	6    1050 4150
 	1    0    0    -1  
@@ -567,7 +599,7 @@ U 7 1 59DF1F2C
 P 750 5300
 F 0 "U7" H 850 5650 50  0000 C CNN
 F 1 "74HC14" H 900 4950 50  0000 C CNN
-F 2 "" H 750 5300 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 750 5300 50  0001 C CNN
 F 3 "" H 750 5300 50  0001 C CNN
 	7    750  5300
 	1    0    0    -1  
@@ -611,8 +643,9 @@ U 1 1 59DFE027
 P 2550 5000
 F 0 "U8" H 2150 5450 50  0000 L CNN
 F 1 "NCS1S2403SC" H 2150 5350 50  0000 L CNN
-F 2 "" H 3150 4600 50  0001 C CIN
-F 3 "" H 2550 5000 50  0001 C CNN
+F 2 "wallbox-footprints:DCDC-Conv_muRata_NCSxxxxSC" H 3150 4600 50  0001 C CIN
+F 3 "http://power.murata.com/data/power/ncl/kdc_ncs1.pdf" H 2550 5000 50  0001 C CNN
+F 4 "DC/DC CONVERTER 3.3V 1W" H 2550 5000 60  0001 C CNN "Description"
 	1    2550 5000
 	1    0    0    -1  
 $EndComp
@@ -695,19 +728,11 @@ F 3 "" H 6700 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1300 2900 1300
+	1700 1300 9250 1300
 Wire Wire Line
-	2900 1300 9250 1300
+	1700 1700 7950 1700
 Wire Wire Line
-	1700 1700 2050 1700
-Wire Wire Line
-	2050 1700 4700 1700
-Wire Wire Line
-	4700 1700 7950 1700
-Wire Wire Line
-	3200 2200 3200 2700
-Wire Wire Line
-	3200 2700 3200 2850
+	3200 2200 3200 2850
 Wire Wire Line
 	3200 2850 2500 2850
 Wire Wire Line
@@ -715,11 +740,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2200 2450 2200
 Wire Wire Line
-	2450 2200 2450 2700
-Wire Wire Line
-	2450 2700 2450 3450
-Wire Wire Line
-	2450 3450 2450 4050
+	2450 2200 2450 4050
 Wire Wire Line
 	2450 3450 2900 3450
 Wire Wire Line
@@ -730,25 +751,15 @@ Wire Wire Line
 Connection ~ 2450 2700
 Connection ~ 2900 3450
 Wire Wire Line
-	5400 2100 5600 2100
+	5400 2100 5950 2100
 Wire Wire Line
-	5600 2100 5950 2100
+	6750 2100 8050 2100
 Wire Wire Line
-	6750 2100 7000 2100
-Wire Wire Line
-	7000 2100 7400 2100
-Wire Wire Line
-	7400 2100 8050 2100
-Wire Wire Line
-	1700 1500 1900 1500
-Wire Wire Line
-	1900 1500 5100 1500
+	1700 1500 5100 1500
 Wire Wire Line
 	7950 1700 7950 1500
 Wire Wire Line
-	7950 1500 8950 1500
-Wire Wire Line
-	8950 1500 9250 1500
+	7950 1500 9250 1500
 Wire Wire Line
 	5400 2100 5400 2200
 Wire Wire Line
@@ -771,19 +782,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 2600 5400 2500
 Wire Wire Line
-	5400 2500 5600 2500
-Wire Wire Line
-	5600 2500 5950 2500
-Wire Wire Line
-	5950 2500 6350 2500
-Wire Wire Line
-	6350 2500 6750 2500
-Wire Wire Line
-	6750 2500 7000 2500
-Wire Wire Line
-	7000 2500 7400 2500
-Wire Wire Line
-	7400 2500 7950 2500
+	5400 2500 7950 2500
 Wire Wire Line
 	5600 2450 5600 2500
 Connection ~ 5600 2500
@@ -827,9 +826,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3600 2650 3850
 Wire Wire Line
-	3250 3850 3450 3850
-Wire Wire Line
-	3450 3850 3600 3850
+	3250 3850 3600 3850
 Wire Wire Line
 	3450 3850 3450 3800
 Wire Wire Line
@@ -840,24 +837,14 @@ Wire Wire Line
 	3450 4050 3450 4250
 Connection ~ 3450 3850
 Wire Wire Line
-	3900 3850 3950 3850
-Wire Wire Line
-	3950 3850 4000 3850
+	3900 3850 4000 3850
 Wire Wire Line
 	3950 3900 3950 3850
 Connection ~ 3950 3850
 Wire Wire Line
 	3950 4200 3950 4250
 Wire Wire Line
-	750  2750 750  3100
-Wire Wire Line
-	750  3100 750  3450
-Wire Wire Line
-	750  3450 750  3800
-Wire Wire Line
-	750  3800 750  4150
-Wire Wire Line
-	750  4150 750  4300
+	750  2750 750  4300
 Connection ~ 750  3100
 Connection ~ 750  3450
 Connection ~ 750  3800
@@ -938,17 +925,7 @@ Connection ~ 6350 2500
 Wire Wire Line
 	8050 5650 8300 5650
 Wire Wire Line
-	8050 2100 8050 3050
-Wire Wire Line
-	8050 3050 8050 3850
-Wire Wire Line
-	8050 3850 8050 3950
-Wire Wire Line
-	8050 3950 8050 4750
-Wire Wire Line
-	8050 4750 8050 4850
-Wire Wire Line
-	8050 4850 8050 5650
+	8050 2100 8050 5650
 Wire Wire Line
 	8300 3850 8050 3850
 Connection ~ 8050 3850
@@ -967,11 +944,7 @@ Connection ~ 8050 4850
 Wire Wire Line
 	7950 5550 7600 5550
 Wire Wire Line
-	7950 2500 7950 3750
-Wire Wire Line
-	7950 3750 7950 4650
-Wire Wire Line
-	7950 4650 7950 5550
+	7950 2500 7950 5550
 Wire Wire Line
 	7600 4650 7950 4650
 Connection ~ 7950 4650
@@ -1023,11 +996,9 @@ Wire Wire Line
 Wire Wire Line
 	9250 2600 9800 2600
 Wire Wire Line
-	9800 5050 9800 2600
+	9800 2600 9800 5050
 Wire Wire Line
-	8700 5050 8800 5050
-Wire Wire Line
-	8800 5050 9800 5050
+	9800 5050 8700 5050
 Wire Wire Line
 	9250 1900 9150 1900
 Wire Wire Line
@@ -1035,11 +1006,9 @@ Wire Wire Line
 Wire Wire Line
 	9150 2700 9700 2700
 Wire Wire Line
-	9700 4150 9700 2700
+	9700 2700 9700 4150
 Wire Wire Line
-	8700 4150 8800 4150
-Wire Wire Line
-	8800 4150 9700 4150
+	9700 4150 8700 4150
 Wire Wire Line
 	9250 1700 9050 1700
 Wire Wire Line
@@ -1047,11 +1016,9 @@ Wire Wire Line
 Wire Wire Line
 	9050 2800 9600 2800
 Wire Wire Line
-	9600 3250 9600 2800
+	9600 2800 9600 3250
 Wire Wire Line
-	8700 3250 8800 3250
-Wire Wire Line
-	8800 3250 9600 3250
+	9600 3250 8700 3250
 Connection ~ 8800 3250
 Connection ~ 8800 4150
 Connection ~ 8800 5050
@@ -1060,25 +1027,15 @@ Wire Wire Line
 Wire Wire Line
 	8950 2900 9500 2900
 Wire Wire Line
-	9500 5650 9500 4750
+	9500 2900 9500 5650
 Wire Wire Line
-	9500 4750 9500 3850
-Wire Wire Line
-	9500 3850 9500 2900
-Wire Wire Line
-	8700 5650 8800 5650
-Wire Wire Line
-	8800 5650 9500 5650
+	9500 5650 8700 5650
 Connection ~ 8950 1500
 Wire Wire Line
-	8700 4750 8800 4750
-Wire Wire Line
-	8800 4750 9500 4750
+	8700 4750 9500 4750
 Connection ~ 9500 4750
 Wire Wire Line
-	8700 3850 8800 3850
-Wire Wire Line
-	8800 3850 9500 3850
+	8700 3850 9500 3850
 Connection ~ 9500 3850
 Connection ~ 8800 3850
 Connection ~ 8800 4750
