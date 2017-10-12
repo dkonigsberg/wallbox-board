@@ -1,4 +1,4 @@
-update=Wed 11 Oct 2017 06:48:16 PM PDT
+update=Wed 11 Oct 2017 10:55:40 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -75,3 +65,13 @@ LibName33=transf
 LibName34=/home/octo/devel/kicad/kicad-library/library/Logic_74xx
 LibName35=/home/octo/devel/kicad/kicad-ESP8266/ESP8266
 LibName36=/home/octo/devel/kicad/kicad-library/library/Switch
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
