@@ -60,7 +60,7 @@ F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-6pol" H 9450 975 5
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729050.pdf" H 9425 2000 50  0001 C CNN
 F 4 "CONN TERM BLOCK 6POS 5MM PCB" H 9450 1600 60  0001 C CNN "Description"
 	1    9450 1600
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Notes 950  1300 0    60   ~ 0
 25VAC
