@@ -42,9 +42,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Seeburg Wall-O-Matic Interface"
-Date "2017-09-29"
-Rev "0"
-Comp "Logicprobe.org"
+Date "2017-10-13"
+Rev "A"
+Comp "LogicProbe.org"
 Comment1 "Derek Konigsberg"
 Comment2 ""
 Comment3 ""
