@@ -720,7 +720,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1700 7950 1700
 Wire Wire Line
-	4100 2600 4100 2850
+	4100 2200 4100 2850
 Wire Wire Line
 	4100 2850 3400 2850
 Wire Wire Line
@@ -970,9 +970,9 @@ Wire Wire Line
 Wire Wire Line
 	9250 2600 9800 2600
 Wire Wire Line
-	9800 2600 9800 5050
+	9800 5050 9800 2600
 Wire Wire Line
-	9800 5050 8700 5050
+	8700 5050 9800 5050
 Wire Wire Line
 	9250 1900 9150 1900
 Wire Wire Line
@@ -980,9 +980,9 @@ Wire Wire Line
 Wire Wire Line
 	9150 2700 9700 2700
 Wire Wire Line
-	9700 2700 9700 4150
+	9700 4150 9700 2700
 Wire Wire Line
-	9700 4150 8700 4150
+	8700 4150 9700 4150
 Wire Wire Line
 	9250 1700 9050 1700
 Wire Wire Line
@@ -990,21 +990,18 @@ Wire Wire Line
 Wire Wire Line
 	9050 2800 9600 2800
 Wire Wire Line
-	9600 2800 9600 3250
+	9600 3250 9600 2800
 Wire Wire Line
-	9600 3250 8700 3250
+	8700 3250 9600 3250
 Connection ~ 8800 3250
 Connection ~ 8800 4150
 Connection ~ 8800 5050
 Wire Wire Line
-	8950 1500 8950 2900
-Wire Wire Line
 	8950 2900 9500 2900
 Wire Wire Line
-	9500 2900 9500 5650
+	9500 5650 9500 2900
 Wire Wire Line
-	9500 5650 8700 5650
-Connection ~ 8950 1500
+	8700 5650 9500 5650
 Wire Wire Line
 	8700 4750 9500 4750
 Connection ~ 9500 4750
@@ -1116,20 +1113,6 @@ Wire Notes Line
 	3150 4450 3150 1850
 Text Notes 2050 4400 0    60   ~ 0
 Controller power supply
-$Comp
-L D_Zener D5
-U 1 1 59DD44FB
-P 4100 2450
-F 0 "D5" H 4100 2550 50  0000 C CNN
-F 1 "1N5363" H 4100 2350 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 4100 2450 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/1N5333B-D.PDF" H 4100 2450 50  0001 C CNN
-F 4 "DIODE ZENER 30V 5W AXIAL" H 4100 2450 60  0001 C CNN "Description"
-	1    4100 2450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4100 2300 4100 2200
 $Comp
 L ESP-12 U9
 U 1 1 59DEBB76
@@ -1406,4 +1389,7 @@ Wire Notes Line
 	5600 4500 1850 4500
 Text Notes 4850 7400 0    60   ~ 0
 Microcontroller
+Wire Wire Line
+	8950 2900 8950 1300
+Connection ~ 8950 1300
 $EndSCHEMATC
