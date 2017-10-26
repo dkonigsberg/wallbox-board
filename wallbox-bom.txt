@@ -1,0 +1,158 @@
+Bill Of Materials
+-----------------
+
+Ref:               C3, C4, C7
+Description:       CAP CER 0.1UF 50V X7R RADIAL
+Digi-Key Part:     BC1101CT-ND
+Manufacturer Part: K104K15X7RF5TH5
+Datasheet:         http://www.vishay.com/docs/45171/kseries.pdf
+
+Ref:               C1
+Description:       CAP ALUM 2.2UF 20% 50V RADIAL
+Digi-Key Part:     493-5369-1-ND
+Manufacturer Part: UPS1H2R2MDD1TD
+Datasheet:         http://nichicon-us.com/english/products/pdfs/e-ups.pdf
+
+Ref:               C2
+Description:       CAP ALUM 10UF 20% 25V RADIAL
+Digi-Key Part:     493-11346-1-ND
+Manufacturer Part: UPW1E100MDD1TD
+Datasheet:         http://nichicon-us.com/english/products/pdfs/e-upw.pdf
+
+Ref:               C5, C8
+Description:       CAP ALUM 100UF 20% 50V RADIAL
+Digi-Key Part:     493-13464-1-ND
+Manufacturer Part: UVZ1H101MPD1TD
+Datasheet:         http://nichicon-us.com/english/products/pdfs/e-uvz.pdf
+
+Ref:               C6, C9
+Description:       CAP CER 0.33UF 50V X8L RADIAL
+Digi-Key Part:     565-4728-1-ND
+Manufacturer Part: KVD500L334M32A0T00
+Datasheet:         http://www.chemi-con.co.jp/e/catalog/pdf/ce-e/ce-sepa-e/ce-kvd-e-170401.pdf
+
+Ref:               D1, D2, D4
+Description:       DIODE BRIDGE 2A 50V 1PH WOG
+Digi-Key Part:     2W005G-E4/51GI-ND
+Manufacturer Part: 2W005G-E4/51
+Datasheet:         http://www.vishay.com/docs/88528/2w005g.pdf
+
+Ref:               D3
+Description:       DIODE GEN PURP 1KV 1A DO41
+Digi-Key Part:     1N4007-TPMSCT-ND
+Manufacturer Part: 1N4007-TP
+Datasheet:         http://www.mccsemi.com/up_pdf/1N4001-1N4007(DO-41).pdf
+
+Ref:               D5
+Description:       DIODE ZENER 30V 5W AXIAL
+Digi-Key Part:     1N5363BGOS-ND
+Manufacturer Part: 1N5363BG
+Datasheet:         http://www.onsemi.com/pub/Collateral/1N5333B-D.PDF
+
+Ref:               Q1, Q2, Q3
+Description:       TRANS NPN 45V 0.1A TO-92
+Digi-Key Part:     BC547BBU-ND
+Manufacturer Part: BC547BBU
+Datasheet:         https://www.fairchildsemi.com/datasheets/BC/BC546.pdf
+
+Ref:               R2, R4, R5, R6, R7, R8, R9
+Description:       RES 1K OHM 1/4W 5% AXIAL
+Digi-Key Part:     ?
+Manufacturer Part: ?
+Datasheet:         ?
+
+Ref:               R3
+Description:       RES 47K OHM 1/4W 5% AXIAL
+Digi-Key Part:     ?
+Manufacturer Part: ?
+Datasheet:         ?
+
+Ref:               R1, R10, R11, R13, R14
+Description:       RES 10K OHM 1/4W 5% AXIAL
+Digi-Key Part:     ?
+Manufacturer Part: ?
+Datasheet:         ?
+
+Ref:               R12
+Description:       RES 4.7K OHM 1/4W 5% AXIAL
+Digi-Key Part:     ?
+Manufacturer Part: ?
+Datasheet:         ?
+
+Ref:               RL1, RL2, RL3
+Description:       RELAY REED SPST 500MA 5V
+Digi-Key Part:     HE101-ND
+Manufacturer Part: HE721A0510
+Datasheet:         http://www.littelfuse.com/~/media/electronics/datasheets/reed_relays/littelfuse_reed_relays_he700_datasheet.pdf.pdf
+
+Ref:               U1
+Description:       IC REG LINEAR 3.3V 1A TO220F-4L
+Digi-Key Part:     KA78R33CTUFS-ND
+Manufacturer Part: KA78R33CTU
+Datasheet:         https://www.fairchildsemi.com/datasheets/KA/KA78R05C.pdf
+
+Ref:               U2
+Description:       IC REG LINEAR 5V 1A TO220AB
+Digi-Key Part:     LM7805CT-ND
+Manufacturer Part: LM7805CT
+Datasheet:         https://www.fairchildsemi.com/datasheets/LM/LM7805.pdf
+
+Ref:               U3, U4, U5, U6
+Description:       OPTOISO 5KV TRANS DIP-4M
+Digi-Key Part:     TPC817MC C9G-ND
+Manufacturer Part: TPC817MC C9G
+Datasheet:         http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf
+
+Ref:               U7
+Description:       IC HEX SCHMITT-TRIG INV 14-DIP
+Digi-Key Part:     296-1577-5-ND
+Manufacturer Part: SN74HC14N
+Datasheet:         http://www.ti.com/lit/ds/symlink/sn74hc14.pdf
+
+Ref:               U8
+Description:       DC/DC CONVERTER 3.3V 1W
+Digi-Key Part:     811-2947-ND
+Manufacturer Part: NCS1S2403SC
+Datasheet:         http://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+
+Ref:               U9
+Description:       ESP8266 SMT MODULE
+Digi-Key Part:     1528-1438-ND
+Manufacturer Part: 2491
+Datasheet:         https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/ESP-12S_UM%20_Rev1.0_8-1-16.pdf
+
+Ref:               J1
+Description:       CONN TERM BLOCK 4POS 5MM PCB
+Digi-Key Part:     277-1238-ND
+Manufacturer Part: 1729034
+Datasheet:         https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729034.pdf
+
+Ref:               J2
+Description:       CONN TERM BLOCK 6POS 5MM PCB
+Digi-Key Part:     277-1240-ND
+Manufacturer Part: 1729050
+Datasheet:         https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729050.pdf
+
+Ref:               J3
+Description:       CONN HEADER 4 POS 2.54
+Digi-Key Part:     732-5317-ND
+Manufacturer Part: 61300411121
+Datasheet:         http://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+
+Ref:               J4
+Description:       CONN HEADER 2 POS 2.54
+Digi-Key Part:     732-5315-ND
+Manufacturer Part: 61300211121
+Datasheet:         http://katalog.we-online.de/em/datasheet/6130xx11121.pdf
+
+Ref:               SW1
+Description:       SWITCH TACTILE SPST-NO 0.05A 24V
+Digi-Key Part:     450-1804-ND
+Manufacturer Part: 1825910-7
+Datasheet:         http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English
+
+Ref:               ?
+Description:       ?
+Digi-Key Part:     ?
+Manufacturer Part: ?
+Datasheet:         ?
