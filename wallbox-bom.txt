@@ -1,7 +1,7 @@
 Bill Of Materials
 -----------------
 
-Ref:               C3, C4, C7
+Ref:               C3, C4, C7, C11
 Description:       CAP CER 0.1UF 50V X7R RADIAL
 Digi-Key Part:     BC1101CT-ND
 Manufacturer Part: K104K15X7RF5TH5
@@ -13,7 +13,7 @@ Digi-Key Part:     493-5369-1-ND
 Manufacturer Part: UPS1H2R2MDD1TD
 Datasheet:         http://nichicon-us.com/english/products/pdfs/e-ups.pdf
 
-Ref:               C2
+Ref:               C2, C10
 Description:       CAP ALUM 10UF 20% 25V RADIAL
 Digi-Key Part:     493-11346-1-ND
 Manufacturer Part: UPW1E100MDD1TD
@@ -42,12 +42,6 @@ Description:       DIODE GEN PURP 1KV 1A DO41
 Digi-Key Part:     1N4007-TPMSCT-ND
 Manufacturer Part: 1N4007-TP
 Datasheet:         http://www.mccsemi.com/up_pdf/1N4001-1N4007(DO-41).pdf
-
-Ref:               D5
-Description:       DIODE ZENER 30V 5W AXIAL
-Digi-Key Part:     1N5363BGOS-ND
-Manufacturer Part: 1N5363BG
-Datasheet:         http://www.onsemi.com/pub/Collateral/1N5333B-D.PDF
 
 Ref:               Q1, Q2, Q3
 Description:       TRANS NPN 45V 0.1A TO-92
@@ -99,8 +93,8 @@ Datasheet:         https://www.fairchildsemi.com/datasheets/LM/LM7805.pdf
 
 Ref:               U3, U4, U5, U6
 Description:       OPTOISO 5KV TRANS DIP-4M
-Digi-Key Part:     TPC817MC C9G-ND
-Manufacturer Part: TPC817MC C9G
+Digi-Key Part:     TPC817C C9G-ND
+Manufacturer Part: TPC817C C9G
 Datasheet:         http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf
 
 Ref:               U7
@@ -148,7 +142,13 @@ Datasheet:         http://katalog.we-online.de/em/datasheet/6130xx11121.pdf
 Ref:               SW1
 Description:       SWITCH TACTILE SPST-NO 0.05A 24V
 Digi-Key Part:     450-1804-ND
-Manufacturer Part: 1825910-7
+Manufacturer Part: 1825910-7 (Red)
+Datasheet:         http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English
+
+Ref:               SW2
+Description:       SWITCH TACTILE SPST-NO 0.05A 24V
+Digi-Key Part:     450-1650-ND
+Manufacturer Part: 1825910-6 (Black)
 Datasheet:         http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English
 
 Ref:               ?
