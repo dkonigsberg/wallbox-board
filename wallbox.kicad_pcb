@@ -3,7 +3,7 @@
   (general
     (links 119)
     (no_connects 0)
-    (area 19.634999 16.9796 138.480001 103.7224)
+    (area 19.634999 17.094999 138.480001 103.555001)
     (thickness 1.6002)
     (drawings 24)
     (tracks 438)
@@ -15,7 +15,7 @@
   (page USLetter)
   (title_block
     (title "Seeburg Wall-O-Matic Interface")
-    (date 2017-10-26)
+    (date 2017-10-29)
     (rev B)
     (company LogicProbe.org)
     (comment 1 "Derek Konigsberg")
@@ -3236,7 +3236,7 @@
   (gr_line (start 92.71 102.235) (end 81.28 102.235) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 92.71 98.425) (end 92.71 102.235) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 81.28 98.425) (end 92.71 98.425) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text "Rev: B\n2017-10-??" (at 81.915 100.33) (layer F.SilkS)
+  (gr_text "Rev: B\n2017-10-29" (at 81.915 100.33) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "Wall-O-Matic Interface" (at 80.01 20.955) (layer F.SilkS)
